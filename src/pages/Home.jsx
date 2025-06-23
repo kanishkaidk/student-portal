@@ -1,7 +1,7 @@
 // === Home.jsx ===
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bgVideo from 'C:/Users/kanishka/student-portal/src/components/bg.mp4';
+
 
 
 const Home = ({ darkMode, setDarkMode }) => {
@@ -14,7 +14,7 @@ const Home = ({ darkMode, setDarkMode }) => {
         muted
         className="absolute w-full h-full object-cover z-0"
       >
-        <source src={bgVideo} type="video/mp4" />
+        <source src="/bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
